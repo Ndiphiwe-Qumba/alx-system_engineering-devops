@@ -1,4 +1,6 @@
 #!/bin/bash
 git add .
-git commit -m "script that creates an alias."
+echo '$(whoami) commit message: '
+read varMessage
+git commit -m "$varMessage"
 git push
