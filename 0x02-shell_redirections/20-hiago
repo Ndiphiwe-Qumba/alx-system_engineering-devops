@@ -1,2 +1,2 @@
 #!/bin/bash
-echo  'Without C, you would live in chiago' | sed 's/h//g'
+echo "Without C, you would live in Cchiago" | sed 's/c//;s/C//g'
