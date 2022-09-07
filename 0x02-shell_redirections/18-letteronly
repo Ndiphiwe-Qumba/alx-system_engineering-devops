@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'ls -dp /etc/ssh/[sshd_config]* | grep -v '/$''
+cat /etc/ssh/sshd_config | grep  "^[[:upper:]]"
